@@ -39,16 +39,16 @@ function getResult() {
   if (machineChose === "Rock" && userChose === "Scissors"){
     final = "Lost";
   }
-    if (machineChose === "Paper" && userChose === "Rock"){
+  if (machineChose === "Paper" && userChose === "Rock"){
       final = "Lost";
-    }
-    if (machineChose === "Paper" && userChose === "Scissors"){
+  }
+  if (machineChose === "Paper" && userChose === "Scissors"){
     final = "Won";
   }
- if (machineChose === "Scissors" && userChose === "Rock"){
+  if (machineChose === "Scissors" && userChose === "Rock"){
    final = "Won";
  }
- if (machineChose === "Scissors" && userChose === "Paper"){
+  if (machineChose === "Scissors" && userChose === "Paper"){
    final = "Lost";
  }
  result.innerHTML = final;
